@@ -30,8 +30,6 @@ char b[8][8] = {
 int main() {
 	int N, M;
 	cin >> N >> M;
-	int min_w = 100000;
-	int min_b = 100000;
 
 	char nm[51][51];
 	for (int i = 0; i < N; i++) {
